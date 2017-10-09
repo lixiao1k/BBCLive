@@ -1,0 +1,6 @@
+framework module Pods_BBCLiveTests {
+  umbrella header "Pods-BBCLiveTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

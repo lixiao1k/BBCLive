@@ -1,0 +1,12 @@
+PODS:
+  - SwiftForms (1.7)
+
+DEPENDENCIES:
+  - SwiftForms
+
+SPEC CHECKSUMS:
+  SwiftForms: 3f3dbaa79fe54eb1ccd0aca8d0cd1e38eb00537e
+
+PODFILE CHECKSUM: 4066e045da6bdeb92729466a59f71c2007f3cd55
+
+COCOAPODS: 1.2.1
