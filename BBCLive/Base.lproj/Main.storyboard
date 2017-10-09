@@ -35,7 +35,15 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Lx-KT-PQk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="554" y="-626"/>
+            <point key="canvasLocation" x="694" y="-626"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="jsc-6c-j9b">
+            <objects>
+                <viewController id="UNb-de-iXq" customClass="WebViewController" customModule="BBCLive" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MET-Xl-rt8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1430" y="-626"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ega-DS-kMo">
