@@ -38,7 +38,7 @@ class RadioFormViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "BBC·Radios"
+        self.title = "Radios"
         let form = FormDescriptor()
         form.title = "BBC·Radios"
         

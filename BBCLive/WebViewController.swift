@@ -21,13 +21,11 @@ class WebViewController: UIViewController, UIWebViewDelegate {
         webView.scalesPageToFit = true
         radioName = dataUtil.getRadioName()
         urlString = dataUtil.getRadioUrl()
-        print(urlString)
-        print(radioName)
-        var url:NSURL = NSURL(string: urlString)!
-        print(url)
-        var request:NSURLRequest = NSURLRequest(url: url as URL)
+        let url:NSURL = NSURL(string: urlString)!
+        let request:NSURLRequest = NSURLRequest(url: url as URL)
         webView.loadRequest(request as URLRequest)
         // Do any additional setup after loading the view.
+        self.navigationItem.title = self.radioName
         self.view.addSubview(webView)
     }
 
